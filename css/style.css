@@ -618,14 +618,18 @@ color: var(--acent-color);
 }
 
 .customers-link {
-    display: block;
-    padding-top: 16px;
+    /* display: block; */
+    /* padding-top: 16px;
     padding-bottom: 16px;
     padding-right: 32px;
-    padding-left: 32px;
+    padding-left: 32px; */
+    display: flex;
+    width: 168px;
+    height: 88px;
+    justify-content: center;
+    align-content: center;
     border: #8E8F99 1px solid;
     border-radius: 5%;
-    width: 168px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
